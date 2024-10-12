@@ -1,0 +1,7 @@
+services:
+  nortixmail:
+    build: .
+    ports:
+      - "25:25"
+    volumes:
+      - ./data:/app/data
