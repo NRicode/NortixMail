@@ -6,11 +6,11 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install
+RUN npm install --production
 
 WORKDIR front
 
-RUN npm install
+RUN npm install --production
 RUN npm run build
 
 WORKDIR /app
