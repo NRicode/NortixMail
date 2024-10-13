@@ -34,6 +34,12 @@
 
 	}
 
+	function copyClicked(){
+		
+		f.copyToClipboard(selectedAddress + domainName);
+
+	}
+
 	function mailClicked(event){
 
 		if((event.type == 'keypress' && event.key == 'Enter') || (event.type == 'click' && event.button == 0)){
@@ -143,7 +149,7 @@
 		<!--Put a div so that there will be a gap from the flex at the top of the page-->
 		<div></div>
 		
-		<div class="adaptWidthSmall" style="display: flex; flex-wrap: wrap">
+		<div class="adaptWidthSmall" style="display: flex; align-items: center; flex-wrap: wrap">
 
 			<select bind:value={selectedAddress} on:change={selectedAddressChange} style="flex: 1">
 
@@ -156,7 +162,9 @@
 			</select>
 
 			<span>{domainName}</span>
-		
+
+			<button on:keypress={copyClicked} on:click={copyClicked} style="margin-left: 10px; padding-top: 0px; padding-bottom: 0px">Copy</button>
+
 		</div>
 
 		<div id="mailList" class="fillWidth">
