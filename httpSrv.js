@@ -149,7 +149,7 @@ let mod = {
 		})
 
 		app.listen(port, () => {
-			console.log('http server running');	
+			console.log('http server listening at port: ' + port);	
 		})
 		
 	}

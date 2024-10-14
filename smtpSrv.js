@@ -111,7 +111,7 @@ let mod = {
 
 		server.listen(port, () => {
 
-			console.log('smtp server running');
+			console.log('smtp server running at port: ' + port);
 
 		});
 
