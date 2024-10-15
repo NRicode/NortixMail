@@ -3,10 +3,8 @@
 
 ## Run without docker
 1. Make sure that nodejs & npm is installed
-3. git clone / download this repo
-4. open terminal inside NortixMail folder
-5. run `npm install`
-6. run `node main.js`
+2. run `npm install`
+3. run `node main.js`
 
 You can now access the website at `http://localhost`, make sure that your port 25 is accessible to receive mails
 
