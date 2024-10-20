@@ -34,7 +34,5 @@ copy your certificate and private key files into the `data` folder (usually, the
 # Is it safe if I don't use TLS? 🔍
 The current mail transfer protocol is a very old and by default it doesn't require TLS to function. This means that when another server sends an email to your server, anyone in between can theoretically read the mail if they actively try to intercept. However, this is unlikely to happen as the people who have this capability are mostly ISPs and hosting providers. Even though TLS is not a requirement, setting it up is still recommended. 
 
-Securing the frontend site with HTTPS is crucial as it's more vulnerable to attacks especially if you use public networks.
-
 # Contributing 🤝
 This repository currently doesn't accept any pull request. However, you can open an issue if you want to request a feature / report bugs.
