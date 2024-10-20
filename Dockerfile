@@ -6,8 +6,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install --production
-
+RUN npm install
 WORKDIR front
 
 RUN npm install
