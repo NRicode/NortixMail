@@ -32,7 +32,7 @@ In the `docker-compose.yaml` file, port `25:25` is mapped by default. It is reco
 copy your certificate and private key files into the `data` folder (usually, the file extensions are `.crt` and `.key`). The file name and extension don't actually matter as Nortix Mail can automatically detect which one is which
 
 # Is it safe if I don't use TLS? 🔍
-The current mail transfer protocol is a very old and by default it doesn't require TLS to function. This means that when another server sends an email to your server, anyone in between can theoretically read the mail if they actively try to intercept. However, this is unlikely to happen as the people who have this capability are mostly ISPs and hosting providers. To enhance security against such potential eavesdropping, setting up TLS is still recommended. 
+The current mail transfer protocol is a very old and by default it doesn't require TLS to function. This means that when another server sends an email to your server, anyone in between can theoretically read the mail if they actively try to intercept. However, this is unlikely to happen as the people who have this capability are mostly ISPs and hosting providers. Even though TLS is not a requirement, setting it up is still recommended. 
 
 Securing the frontend site with HTTPS is crucial as it's more vulnerable to attacks especially if you use public networks.
 
