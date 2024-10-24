@@ -1,4 +1,5 @@
 # Nortix Mail
+Please star this repo if you find it useful, thank you!
 ![image](https://github.com/user-attachments/assets/d046ef05-af9c-4801-8d74-35ba69b63b75)
 
 # Purpose 🎯
