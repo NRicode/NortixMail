@@ -7,7 +7,7 @@ Whenever you sign up with your email on a website, your email address is stored 
 Using Nortix Mail, you can create email addresses that can be used temporarily so that you don't give out your real email address. This significantly enhances privacy, security and reduces spam. It's like running your own Gmail server.
 
 # Why it's better than other similar services ⚡
-Email servers are notoriously difficult to set up, Nortix Mail aims to make it as simple as possible by making TLS optional and it can automatically detect your domain if you choose to use TLS.
+Email servers are notoriously difficult to set up, Nortix Mail aims to make it as simple as possible by making TLS optional and it can automatically detect your domain if you choose to use TLS. If you change your domain, it can automatically detect it and requires no additional configuration. If you want to move the data to another server, just copy the `data` folder.
 
 # Run without docker 🖥️
 1. make sure that nodejs & npm is installed
